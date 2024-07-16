@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    max-width:100%;
+           
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row div {
+    padding: 2px 5px;
+}
+main section {
+ 
+    border: #0b147d solid 2px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-image: url("/assets/img/test.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #3e51fd solid;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+button {
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-top: 15px;
+}

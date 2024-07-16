@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+main section{
+    font-style: italic;
+    font-size: 20px;
+    border: #370bb0 solid 1px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+main section a {
+    display: flex;
+    justify-content: stretch;
+}
+/*
+   
+    background-image: url(/assets/img/clinic.png);
+    background-repeat: no-repeat;
+*/
+/*SM*/
+@media screen and (min-width:576px){
+    main section{
+        width: 50%;
+    
+       
+    }
+}
+/*MD*/
+@media screen and (min-width:768px) {
+    main section {
+            width: 80%;
+        }
+}
+/*LG*/
+@media screen and (min-width:992px) {
+    main section {
+            width: 70%;
+        }
+}
+/*XL*/
+@media screen and (min-width:1200px) {
+    
+}
+/*XXL*/
+@media screen and (min-width:1400px) {
+
+}

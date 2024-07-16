@@ -1,0 +1,51 @@
+*{
+    display: flex;
+    justify-content:space-evenly;
+}
+.navbar{
+ background-color: B8E2FA;
+}
+.rosado{
+    background-color: pink;
+    border: solid 1px #000;
+    padding: 50%;
+    height: 80%;
+
+}
+ .verde{
+    background-color:green;
+    border: solid 1px #000;
+    padding: 5px;
+    height: 80px;
+
+ }
+ .azul{
+background-color:blue;
+    border: solid 1px #000;
+    padding: 5px;
+    height: 80px;
+    
+ }
+.rojo{
+background-color:red;
+    border: solid 1px #000;
+    padding: 5px;
+    height: 80px;
+    
+ }
+.morado{
+background-color:mediumpurple;
+    border: solid 1px #000;
+    padding: 5px;
+    height: 80px;
+    
+ }
+ .gris{
+background-color:gray;
+    border: solid 1px #000;
+    padding: 5px;
+    height: 80px;
+    
+ }
+
+ 
