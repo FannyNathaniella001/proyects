@@ -17,49 +17,51 @@
         <section>
             <!--navbar-expand-md se expande en tamaños mayores a 768-->
             <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">HTML + CSS + BOOTSTRAP</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="index.html">Proyectos</a>
+                    <button class="navbar-toggler bg-opacity-25" type="button " data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon "></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse bg-opacity-25" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="registro_medicamentos.html">Registrar Medicamento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="registro_pacientes.html">Registrar Pacientes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="registro_productos.html">Registrar Productos</a>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Registro
+                                    </a>
+                                    <ul class="dropdown-menu ms-auto">
+                                        <li><a href="registro_medicamentos.html">Medicamento</a></li>
+                                        <li><a href="registro_pacientes.html">Paciente</a></li>
+                                        <li><a href="registro_productos.html">Producto</a></li>
+                                    </ul>
+                                </li>
+                                
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="grilla_de_colores.html">Grilla</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="tablas-usuarios.html">Tabla Usuarios</a>
+                                <a class="nav-link " href="tablas-usuarios.html">Usuarios</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </section>
-           
-        <section class="px-5">
-            <img class="img-fluid img-thumbnail" src="assets/img/clinica.jpg" alt="logo-clinica">
-
+     <!--      
+        <section class="px-4 pt-6">
+            <div id="img">
+                    <img class="img-fluid img-thumbnail" src="assets/img/clinica.jpg" alt="logo-clinica">
+            </div>
         </section>
-        <section> 
-        <h1>Formularios adicionales</h1>
+-->
+        <section id="registro"> 
+        <h1>Formularios de Registro</h1>
         <a href="registro_pacientes.html">Registrar Pacientes</a>
         <a href="registro_productos.html">Registrar Productos</a>
         <a href="registro_medicamentos.html">Registrar Medicamentos</a>
         </section>
-    <section>
+    <section id="registro">
         <h1>CSS</h1>
         <a href="grilla_de_colores.html">Grilla</a>
     </section>

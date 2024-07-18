@@ -1,28 +1,52 @@
-* {
-    box-sizing: border-box;
-    max-width:100%;
-           
+* {        
+    box-sizing:content-box;
+    max-width:100%;           
 }
 
+.dropdown-menu ms-auto show{
+    background-color: black;
+}
+
+#registro a{
+    color: #141619;
+    text-decoration: none;
+    display: grid;
+    flex-wrap: wrap;
+    margin:10px auto;
+    margin-left: 50px;
+}
+
+.navbar-toggler {
+    border-color: aliceblue;
+}
+h1 {
+    margin-left:15rem;
+}
+a.nav-link{
+    color: aliceblue;
+}
 .row {
-    display: flex;
+    display:grid;
     flex-wrap: wrap;
 }
-
+a.navbar-brand{
+    color:whitesmoke;
+}
+ 
 .row div {
     padding: 2px 5px;
 }
-main section {
- 
-    border: #0b147d solid 2px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    background-image: url("/assets/img/test.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+
+#registro {
+    border: #02062c solid 2px;
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:4px auto ;
+    border-radius: 4px;
+    align-items: center;   
 }
+
 label {
     display: block;
     font-weight: bold;
@@ -36,7 +60,7 @@ input[type="date"],
 select {
     width: 100%;
     border-radius: 5px;
-    border: 1px #3e51fd solid;
+    border: 1px #02062d solid;
     font-size: 18px;
     padding: 5px 10px;
 }
@@ -44,4 +68,16 @@ button {
     font-weight: bold;
     padding: 8px 15px;
     margin-top: 15px;
+}
+img {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#img {
+    height: 800px;
+    position: relative;
+    background: whitesmoke;
 }
